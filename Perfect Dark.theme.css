@@ -425,11 +425,9 @@
     color: var(--custom-bg);
     margin-bottom: 10px;
 }
-.container-2o3qEW div{
-    background-color: var(--secondary-dark-bg); 
-}
-.member-2gU6Ar{
-    background-color: var(--secondary-dark-bg);
+.members-3WRCEx,
+.members-3WRCEx > div {
+    background-color: var(--secondary-dark-bg) !important;
 }
 
 
