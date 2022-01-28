@@ -7,6 +7,12 @@
   * @website https://teamwrath.xyz
 */
 
+/*
+--custom-bg: #6d2eff;
+--custom-bg-90: #6d2eff90;
+--custom-bg-shadow: #6d2eff50;
+*/
+
 :root {
   --dark-bg: #101015;
   --secondary-dark-bg: #141419;
@@ -17,7 +23,7 @@
   --blackTextColor: black;
 }
 
-/* Title Bat */
+/* Title Bar */
 .typeWindows-2-g3UY{ 
     background-color: var(--dark-bg);
     padding: 15px 10px;
@@ -123,6 +129,23 @@
     margin-top: 5px;
     margin-bottom: 15px;
 }
+.keybind-13vtq8{
+    display: none;
+}
+.closeButton-PCZcma{
+    border-radius: 0;
+    border: none;
+    background-color: var(--custom-bg);
+}
+.closeButton-PCZcma:hover{
+    border-radius: 0;
+    border: none;
+    background-color: var(--custom-bg-90) !important;
+}
+.colorBrand-I6CyqQ{
+    background-color: var(--custom-bg) !important;
+}
+
 
 /* User Profile Section */
 .popoutInfo-16MuYF,
@@ -157,9 +180,6 @@
 }
 .aboutMeSection-PUghFQ{
     padding: 0 5px;
-}
-.aboutMeTitle-3pjiS7{
-    color: var(--custom-bg);
 }
 .headerTagNoNickname-3tGHj6{
     position: absolute;
