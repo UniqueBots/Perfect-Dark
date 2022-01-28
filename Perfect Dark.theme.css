@@ -206,7 +206,7 @@
     padding: 10px 5px;
     background-color: var(--secondary-dark-bg);
 }
-.role-2TIOKu {
+.role-2TIOKu{
     background-color: var(--dark-bg);
     padding: 15px 10px;
 }
@@ -227,6 +227,41 @@
     top: 50px;
     padding: 0;
 }
+.role-2TIOKu > .roleCircle-1EgnFN{
+    position: relative;
+    top: 0;
+    right: 13px;
+    width: 15px;
+    height: 29px;
+    border-radius: 0;
+}
+.userPopout-2j1gM4{
+    background-color: var(--secondary-dark-bg);
+    height: 75vh;
+}
+.avatarWrapperNormal-ahVUaC > .avatar-2Vndt_{
+    border: 4px solid var(--custom-bg);
+    position: relative;
+    left: 100%;
+} 
+.headerText-1-WmDq > .nickname-t08Mck{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.divider-1wtgZ3{
+    display: none;
+}
+.aboutMeSection-PUghFQ{
+    padding-top: 10px;
+}
+.aboutMeSection-PUghFQ > .aboutMeTitle-3pjiS7,
+.bodyInnerWrapper-2bQs1k > .bodyTitle-2Az3VQ{
+    color: var(--custom-bg);
+}
+.avatarHint-k7pYop{
+    display: none;
+}
+
 
 
 
@@ -284,7 +319,7 @@
 .mentioned-Tre-dv,
 .mentioned-Tre-dv:hover,
 .mentioned-Tre-dv::before{
-    background-color: var(--custom-bg-90);
+    background-color: var(--custom-bg-90) !important;
 }
 .mentioned-Tre-dv::before{
     padding-right: 3px;
@@ -315,6 +350,24 @@
     background-color: var(--dark-bg);
 }
 pre > .scrollbarGhostHairline-2LpzZ9{
+    background-color: var(--secondary-dark-bg);
+}
+.grid-1aWVsE{
+    background-color: var(--secondary-dark-bg);
+}
+.reaction-2A2y9y,
+.reaction-2A2y9y:hover{
+    padding: 5px 10px;
+    position: relative;
+    top: 5px;
+    border-radius: 0;
+    background-color: var(--custom-bg);
+    outline: 2px solid var(--custom-bg-90);
+}
+.reaction-2A2y9y > .reactionInner-9eVHJa{
+    background-color: blue;
+}
+.card-PQEqCK{
     background-color: var(--secondary-dark-bg);
 }
 /* Message Nitro Gift Button */
@@ -442,6 +495,9 @@ pre > .scrollbarGhostHairline-2LpzZ9{
 }
 .spine-29OFwR{
     color: var(--custom-bg);
+}
+.container-2o3qEW{
+    background-color: var(--secondary-dark-bg);
 }
 
 
