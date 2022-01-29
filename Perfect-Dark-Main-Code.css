@@ -7,18 +7,6 @@
   * @website https://teamwrath.xyz
 */
 
-/* @import url(https://uniquebots.github.io/Perfect-Dark/Perfect%20Dark.theme.css); */
-
-:root {
-  --dark-bg: #101015;
-  --secondary-dark-bg: #141419;
-  --custom-bg: #6d2eff;
-  --custom-bg-90: #6d2eff90;
-  --custom-bg-shadow: #6d2eff50;
-  --whiteTextColor: white;
-  --blackTextColor: black;
-}
-
 /* Title Bar */
 .typeWindows-2-g3UY{ 
     background-color: var(--dark-bg);
